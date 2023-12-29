@@ -21,7 +21,7 @@ from pathlib import Path
 # SKIP_CHOICE will skip inputting y/n to add each performer
 # AUTOTAG_SCENES will send the payload to autotag scenes for each performer
 
-PERFORMERS_ROOT = "path/to/your/performers/"
+PERFORMERS_ROOT = "path/to/your/performers"
 GRAPHQL_URL = "http://localhost:9999/graphql"
 BLACKLIST_PERFORMERS = ["misc", "studios"]
 SKIP_CHOICE = False
